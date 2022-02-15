@@ -150,6 +150,7 @@ body {
   border-right: 1px solid #e1e1e1;
 }
 
+/*main_text0*/
 .wrap .main_text0 {
   width: 100%;
   height: 601px;
@@ -202,4 +203,86 @@ body {
   font-size: 12px;
   line-height: 30px;
   margin: 25px auto;
+}
+
+/*main_text1*/
+.wrap .main_text1 {
+  width: 100%;
+  height: 659px;
+  margin-top: 50px;
+}
+
+.wrap .main_text1 > h1 {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.wrap .main_text1 .font_class2 {
+  text-align: center;
+}
+
+.wrap .main_text1 .service {
+  width: 1280px;
+  display: flex;
+  margin: 49px auto;
+  height: 427px;
+}
+
+.wrap .main_text1 .service .font_class4 {
+  width: 640px;
+  height: calc(427px - 40px);
+  padding: 20px;
+}
+
+.wrap .main_text1 .service .font_class4 h2 {
+  margin-bottom: 27px;
+}
+
+/*main_text2*/
+.wrap .main_text2 {
+  width: 100%;
+  height: 418px;
+  background-image: url("image/contract.png");
+}
+
+.wrap .main_text2 ul {
+  display: flex;
+  padding-top: 138px;
+}
+
+.wrap .main_text2 ul li {
+  flex: 1;
+  text-align: center;
+}
+
+.wrap .main_text2 ul li div h1,
+.wrap .main_text2 ul li div {
+  color: #fff;
+}
+
+.wrap .main_text2 ul li .moreBtn2 {
+  width: 220px;
+  height: 40px;
+  border: 1px solid #fff;
+  line-height: 40px;
+  cursor: pointer;
+  margin: 16px auto;
+}
+
+/* footer */
+.wrap footer {
+  display: flex;
+  background-color: #1f1f1f;
+  padding: 30px;
+}
+
+.wrap footer div:first-child {
+  flex: 3;
+  text-align: center;
+  color: #fff;
+}
+
+.wrap footer div:last-child {
+  flex: 9;
+  color: #fff;
 }
